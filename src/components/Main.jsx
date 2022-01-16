@@ -220,11 +220,11 @@ export default function Main() {
                     <GithubLinks>
                         <GithubLink>
                             <GithubIcon />
-                            <Link href="https://github.com/Mefgalm/Json2FSharpFront" target="_blank">front</Link>
+                            <Link href="https://github.com/Mefgalm/json2fsharp-front" target="_blank">front</Link>
                         </GithubLink>
                         <GithubLink>
                             <GithubIcon />
-                            <Link href="https://github.com/Mefgalm/json2fsharp-front" target="_blank">back</Link>
+                            <Link href="https://github.com/Mefgalm/Json2FSharpBack" target="_blank">back</Link>
                         </GithubLink>
                     </GithubLinks>
                 </Actions>
