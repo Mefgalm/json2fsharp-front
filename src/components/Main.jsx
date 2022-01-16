@@ -192,10 +192,6 @@ export default function Main() {
 
     useEffect(() => {
         generate(input, collectionGeneration, outputFeature, rootObjectName);
-    }, []);
-
-    useEffect(() => {
-        generate(input, collectionGeneration, outputFeature, rootObjectName);
     }, [input, collectionGeneration, outputFeature, rootObjectName]);
 
     const options = {
@@ -228,7 +224,7 @@ export default function Main() {
                         </GithubLink>
                         <GithubLink>
                             <GithubIcon />
-                            <Link href="https://github.com/Mefgalm/Json2FSharpBack" target="_blank">back</Link>
+                            <Link href="https://github.com/Mefgalm/json2fsharp-front" target="_blank">back</Link>
                         </GithubLink>
                     </GithubLinks>
                 </Actions>
